@@ -11,7 +11,7 @@ public class BrowserFactory {
 		System.setProperty("webdriver.chrome.driver", "/home/sohel/Downloads/eclipse-installer/gecko/chromedriver");
 		driver = new ChromeDriver();			
 		driver.manage().window().maximize();
-		driver.get("https://dev.findgarages.com/");
+		driver.get("https://dev.find-garage.com/");
 		return driver;
 	  }
 	

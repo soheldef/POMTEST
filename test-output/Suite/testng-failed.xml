@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="1" name="Homepagetest">
+    <classes>
+      <class name="com.test.tests.Homepagetest"/>
+    </classes>
+  </test> <!-- Homepagetest -->
+  <test thread-count="1" name="Login">
+    <classes>
+      <class name="com.test.tests.Login"/>
+    </classes>
+  </test> <!-- Login -->
+  <test name="Homepagetest(failed)">
+    <classes>
+      <class name="com.test.tests.Login">
+        <methods>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.test.tests.Login -->
+      <class name="com.test.tests.Homepagetest">
+        <methods>
+          <include name="Verifylinks"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.test.tests.Homepagetest -->
+    </classes>
+  </test> <!-- Homepagetest(failed) -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.test.tests.Login">
+        <methods>
+          <include name="login_test"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.test.tests.Login -->
+      <class name="com.test.tests.Homepagetest">
+        <methods>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.test.tests.Homepagetest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

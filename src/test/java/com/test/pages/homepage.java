@@ -1,7 +1,6 @@
 package com.test.pages;
 
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,8 +15,7 @@ public class homepage {
 	}
 	
    //ALL LINKS AND BUTTONS
-	@FindBy(linkText="LOGIN")
-	static WebElement LoginButton;
+	@FindBy(linkText="LOGIN") WebElement LoginButton;
 	public void loginlink(){ 
 	   LoginButton.click();
 	}
@@ -34,7 +32,7 @@ public class homepage {
 	
 	
 	//ALL TESXTS
-	public static String loginbuttontext() {
+	public String loginbuttontext() {
 		String loginbuttontext = "LOGIN";
 		return loginbuttontext;
 		

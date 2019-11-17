@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1859" started-at="2019-11-17T13:14:17Z" finished-at="2019-11-17T13:14:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1859" started-at="2019-11-17T13:14:17Z" finished-at="2019-11-17T13:14:19Z">
+      <class name="com.test.tests.Homepagetest">
+        <test-method status="PASS" signature="Verifylinks()[pri:1, instance:com.test.tests.Homepagetest@5032714f]" name="Verifylinks" duration-ms="1572" started-at="2019-11-17T19:14:17Z" finished-at="2019-11-17T19:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylinks -->
+        <test-method status="PASS" signature="Verifytexts()[pri:2, instance:com.test.tests.Homepagetest@5032714f]" name="Verifytexts" duration-ms="36" started-at="2019-11-17T19:14:19Z" finished-at="2019-11-17T19:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifytexts -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.test.tests.Homepagetest@5032714f]" name="quitbrowser" is-config="true" duration-ms="229" started-at="2019-11-17T19:14:19Z" finished-at="2019-11-17T19:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- com.test.tests.Homepagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

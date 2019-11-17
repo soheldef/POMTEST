@@ -16,6 +16,18 @@ public class Loginpage {
 	Logo.click();
 
 		}
+    
+    @FindBy(id="email") static WebElement emailfield;	
+    @FindBy(id="password") static WebElement passwordfield;
+    @FindBy(xpath="/html/body/app-root/app-page-layout/main/app-login/div/section/div[4]/form/div[4]/button") static WebElement loginbutton;
+    
+    
+    public void login(String email,String pass){ 
+	emailfield.sendKeys(email);
+	passwordfield.sendKeys(pass);
+	loginbutton.click();
+
+		}
 
 		 
 	}

@@ -1,7 +1,13 @@
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Homepagetest">
     <classes>
       <class name="com.test.tests.Homepagetest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="1" name="Login">
+    <classes>
+      <class name="com.test.tests.Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

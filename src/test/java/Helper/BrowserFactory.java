@@ -12,7 +12,7 @@ public class BrowserFactory {
 		System.setProperty("webdriver.chrome.driver", "/Users/sohelsorwar/Documents/Work/eclipse-workspace/POMTEST/Chromedriver/chromedriver");
 		driver = new ChromeDriver();			
 		driver.manage().window().maximize();
-		driver.get("https://find-garage.com");
+		driver.get("https://finds-garages.com");
 		return driver;
 	  }
 	

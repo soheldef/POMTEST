@@ -14,7 +14,7 @@ public class BrowserFactory {
 		System.setProperty("webdriver.chrome.driver", location+"/Chromedriver/chromedriver");
 		driver = new ChromeDriver();			
 		driver.manage().window().maximize();
-		driver.get("https://find-garage.com");
+		driver.get("https://finds-garages.com");
 		return driver;
 	  }
 	

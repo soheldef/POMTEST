@@ -9,7 +9,9 @@ public class BrowserFactory {
 	static WebDriver driver;
 	
 	public static WebDriver StartBrowser(){
-		System.setProperty("webdriver.chrome.driver", "/Users/sohelsorwar/Documents/Work/eclipse-workspace/POMTEST/Chromedriver/chromedriver");
+		String location = System.getProperty("user.dir");
+		System.out.print(location);
+		System.setProperty("webdriver.chrome.driver", location+"/Chromedriver/chromedriver");
 		driver = new ChromeDriver();			
 		driver.manage().window().maximize();
 		driver.get("https://find-garage.com");

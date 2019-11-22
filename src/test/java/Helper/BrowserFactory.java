@@ -3,23 +3,24 @@ package Helper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserFactory {
 	public static final String quitbrowser = null;
-	static WebDriver driver;
+	public WebDriver driver;
 	
-	public static WebDriver StartBrowser(){
-		String location = System.getProperty("user.dir");
-		System.out.print(location);
-		System.setProperty("webdriver.chrome.driver", location+"/Chromedriver/chromedriver");
+	@BeforeClass
+	public void StartBrowser(){			
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();			
 		driver.manage().window().maximize();
-		driver.get("https://finds-garages.com");
-		return driver;
+		driver.get("https://dev.find-garage.com/");
 	  }
 	
 	@AfterClass
-    public static void quitbrowser(){
+    public void quitbrowser(){
 		driver.quit();
 	  }
 	

@@ -24,7 +24,6 @@ public class Login extends BrowserFactory{
 	Loginpage loginpage;
 	dashboardpage dashboard;
 	
-	//String CSV_file = "/Users/yeaser.khan/Desktop/creds_fg.csv";
 	String CSV_file=System.getProperty("user.dir")+"/Resources/creds_fg.csv";
 	
 	@Test(priority=0)	

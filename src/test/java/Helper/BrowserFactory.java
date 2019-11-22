@@ -16,7 +16,7 @@ public class BrowserFactory {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();			
 		driver.manage().window().maximize();
-		driver.get("https://dev.find-garage.com/");
+		driver.get("https://dev.finds-garages.com/");
 	  }
 	
 	@AfterClass

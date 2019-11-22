@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36484" started-at="2019-11-22T03:49:39Z" finished-at="2019-11-22T03:50:16Z">
+  <suite name="Default suite" duration-ms="26109" started-at="2019-11-22T08:23:51Z" finished-at="2019-11-22T08:24:17Z">
     <groups>
     </groups>
-    <test name="Homepagetest" duration-ms="11591" started-at="2019-11-22T03:49:39Z" finished-at="2019-11-22T03:49:51Z">
-      <class name="com.test.tests.Homepagetest">
-        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:com.test.tests.Homepagetest@27efef64]" name="StartBrowser" is-config="true" duration-ms="9886" started-at="2019-11-22T09:49:39Z" finished-at="2019-11-22T09:49:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StartBrowser -->
-        <test-method status="PASS" signature="Verifylinks()[pri:0, instance:com.test.tests.Homepagetest@27efef64]" name="Verifylinks" duration-ms="1555" started-at="2019-11-22T09:49:49Z" finished-at="2019-11-22T09:49:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifylinks -->
-        <test-method status="PASS" signature="Verifytexts()[pri:1, instance:com.test.tests.Homepagetest@27efef64]" name="Verifytexts" duration-ms="32" started-at="2019-11-22T09:49:51Z" finished-at="2019-11-22T09:49:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verifytexts -->
-        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.test.tests.Homepagetest@27efef64]" name="quitbrowser" is-config="true" duration-ms="102" started-at="2019-11-22T09:49:51Z" finished-at="2019-11-22T09:49:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitbrowser -->
-      </class> <!-- com.test.tests.Homepagetest -->
-    </test> <!-- Homepagetest -->
-    <test name="Login" duration-ms="19872" started-at="2019-11-22T03:49:56Z" finished-at="2019-11-22T03:50:16Z">
+    <test name="Default test" duration-ms="26109" started-at="2019-11-22T08:23:51Z" finished-at="2019-11-22T08:24:17Z">
       <class name="com.test.tests.Login">
-        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:com.test.tests.Login@548e7350]" name="StartBrowser" is-config="true" duration-ms="7607" started-at="2019-11-22T09:49:56Z" finished-at="2019-11-22T09:50:03Z">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:com.test.tests.Login@1e88b3c]" name="StartBrowser" is-config="true" duration-ms="8422" started-at="2019-11-22T14:23:51Z" finished-at="2019-11-22T14:23:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method status="PASS" signature="clickLoginHome()[pri:0, instance:com.test.tests.Login@548e7350]" name="clickLoginHome" duration-ms="683" started-at="2019-11-22T09:50:03Z" finished-at="2019-11-22T09:50:04Z">
+        <test-method status="PASS" signature="clickLoginHome()[pri:0, instance:com.test.tests.Login@1e88b3c]" name="clickLoginHome" duration-ms="764" started-at="2019-11-22T14:23:59Z" finished-at="2019-11-22T14:24:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLoginHome -->
-        <test-method status="PASS" signature="enterCredentials()[pri:1, instance:com.test.tests.Login@548e7350]" name="enterCredentials" duration-ms="5490" started-at="2019-11-22T09:50:04Z" finished-at="2019-11-22T09:50:10Z">
+        <test-method status="PASS" signature="enterCredentials()[pri:1, instance:com.test.tests.Login@1e88b3c]" name="enterCredentials" duration-ms="16796" started-at="2019-11-22T14:24:00Z" finished-at="2019-11-22T14:24:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCredentials -->
-        <test-method status="PASS" signature="signOut()[pri:2, instance:com.test.tests.Login@548e7350]" name="signOut" duration-ms="5953" started-at="2019-11-22T09:50:10Z" finished-at="2019-11-22T09:50:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signOut -->
-        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.test.tests.Login@548e7350]" name="quitbrowser" is-config="true" duration-ms="135" started-at="2019-11-22T09:50:15Z" finished-at="2019-11-22T09:50:16Z">
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:com.test.tests.Login@1e88b3c]" name="quitbrowser" is-config="true" duration-ms="113" started-at="2019-11-22T14:24:17Z" finished-at="2019-11-22T14:24:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitbrowser -->
       </class> <!-- com.test.tests.Login -->
-    </test> <!-- Login -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

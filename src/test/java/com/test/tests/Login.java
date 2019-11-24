@@ -52,7 +52,7 @@ public class Login extends BrowserFactory{
 				dashboard = new dashboardpage(driver);
 				String curUrl=driver.getCurrentUrl();
 				System.out.println("Current URL is: " +curUrl);
-				String expUrl="https://dev.find-garage.com/dashboard";
+				String expUrl="https://dev.finds-garages.com/dashboard";
 				System.out.println("Expected URL is: " +expUrl);
 				if(curUrl.equals(expUrl)) {
 					dashboard.logoutlink();
